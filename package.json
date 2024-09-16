@@ -1,17 +1,24 @@
 {
   "name": "mern-estate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A real estate management system built with the MERN stack.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mern",
+    "real estate",
+    "management",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.5.1",
